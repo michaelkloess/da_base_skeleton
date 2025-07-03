@@ -24,10 +24,9 @@
 │   └── config.yaml                       ← File paths, model parameters, etc.
 │
 ├── src/                                  ← Source code for data handling and modeling
-│   ├── __init__.py
 │   ├── sql/                              ← SQL-based data prep and feature logic
 │   │   ├── clean_data.sql                ← Data cleaning, transformation
-│   │   ├── join_sources.sql              ← 
+│   │   ├── join_sources.sql              
 │   │   └── feature_engineering.sql
 │   └── py/                               ← Python-based logic and helpers
 │       ├── data_preparation.py           ← Data cleaning, transformation
