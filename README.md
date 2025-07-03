@@ -15,3 +15,7 @@ Dieses Repository bietet eine bewährte Grundstruktur für neue Projekte. Es die
 📁📂🗄️🗂️🗃️📍
 
 🔑
+
+
+→←
+✓✗✕✔︎➤
