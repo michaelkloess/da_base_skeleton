@@ -19,3 +19,12 @@ Dieses Repository bietet eine bewährte Grundstruktur für neue Projekte. Es die
 
 →←
 ✓✗✕✔︎➤
+
+
+## Technologiestack
+
+* Programmiersprache: -
+* Datenanalyse: SQL
+* Visualisierung: -
+* Clustering / Segmentierung: -
+* Umgebung: DBeaver, Google Colab, VS Code
