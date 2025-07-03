@@ -12,7 +12,7 @@
 │   ├── 05_modeling_analysis.md           ← Modeling methods and logic
 │   ├── 06_model_evaluation.md            ← Evaluation metrics and validation
 │   ├── 07_deployment_next_steps.md       ← Recommendations or deployment steps
-│   └── glossary.md                       ← Domain terms and definitions
+│   └── 08_glossary.md                    ← Domain terms and definitions
 │
 ├── data/                                 ← Organized data storage
 │   ├── raw/                              ← Original unmodified data
