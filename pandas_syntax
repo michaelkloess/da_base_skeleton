@@ -1,0 +1,29 @@
+## 🧹 Data Cleaning & Transformation mit pandas
+
+| Befehl | Beschreibung |
+|--------|--------------|
+| `df = pd.read_csv('data.csv')` | CSV-Datei einlesen |
+| `df.head()` | Vorschau der obersten Zeilen |
+| `df.info()` | Übersicht über den DataFrame |
+| `df.describe()` | Statistische Kennzahlen |
+| `df.isnull().sum()` | Anzahl fehlender Werte je Spalte |
+| `df.fillna(0, inplace=True)` | Fehlende Werte durch 0 ersetzen |
+| `df.dropna(inplace=True)` | Zeilen mit fehlenden Werten löschen |
+| `df.rename(columns={'old': 'new'}, inplace=True)` | Spalte umbenennen |
+| `df[df['col'] > 10]` | Filtern nach Bedingung |
+| `df.groupby('col').mean()` | Gruppieren und Mittelwert berechnen |
+| `df.sort_values(by='col', ascending=False)` | Sortieren nach Spalte absteigend |
+| `df['new_col'] = df['col1'] + df['col2']` | Neue Spalte berechnen |
+| `df.drop('col_name', axis=1, inplace=True)` | Spalte löschen |
+| `df['col'].unique()` | Einzigartige Werte |
+| `df['col'].value_counts()` | Häufigkeit von Einträgen zählen |
+| `df['col'] = df['col'].astype(str)` | Datentyp zu String konvertieren |
+| `df['col'] = df['col'].apply(lambda x: x * 2)` | Benutzerdefinierte Funktion anwenden |
+| `df['col'].str.lower()` | In Kleinbuchstaben umwandeln |
+| `pd.merge(df1, df2, on='id')` | Zusammenführen über gemeinsamen Schlüssel |
+| `pd.concat([df1, df2])` | DataFrames stapeln |
+| `df.reset_index(drop=True, inplace=True)` | Index zurücksetzen |
+| `df.set_index('id', inplace=True)` | Spalte als Index setzen |
+| `df.duplicated().sum()` | Doppelte Zeilen zählen |
+| `df.drop_duplicates(inplace=True)` | Doppelte Zeilen entfernen |
+| `df.to_csv('cleaned.csv', index=False)` | In CSV-Datei speichern |
